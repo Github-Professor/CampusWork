@@ -21,5 +21,12 @@ namespace Registration
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Home f1 = new Home();
+            this.Hide();
+            f1.Show();
+        }
     }
 }

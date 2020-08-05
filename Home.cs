@@ -21,5 +21,12 @@ namespace Registration
         {
            
         }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            Registration f2 = new Registration();
+            this.Hide();
+            f2.Show();
+        }
     }
 }
