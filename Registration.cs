@@ -47,5 +47,12 @@ namespace Registration
             }
             
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            more f3 = new more();
+            this.Hide();
+            f3.Show();
+        }
     }
 }
