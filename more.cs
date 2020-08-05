@@ -23,5 +23,12 @@ namespace Registration
             this.Hide();
             f3.Show();
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            Delete f5 = new Delete();
+            this.Hide();
+            f5.Show();
+        }
     }
 }
