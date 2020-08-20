@@ -50,9 +50,21 @@ namespace Registration
 
         private void button2_Click(object sender, EventArgs e)
         {
-            more f3 = new more();
+            Home f3 = new Home();
             this.Hide();
             f3.Show();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            firstname.Text = "";
+            lastname.Text = "";
+            username.Text = "";
+            phone.Text = "";
+            address.Text = "";
+            age.Text = "";
+            gender.Text = "";
+            password.Text = "";
         }
     }
 }

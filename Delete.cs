@@ -52,5 +52,18 @@ namespace Registration
             }
             
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            deleteUsername.Text = "";
+            deletePassword.Text = "";
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Body f7 = new Body();
+            this.Hide();
+            f7.Show();
+        }
     }
 }
